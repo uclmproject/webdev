@@ -1,0 +1,60 @@
+#import "colors.css";
+
+* {
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+.navbar-footer {
+   background-color: var(--sub_color);
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 5%;
+}
+
+.navbar-footer div {
+   margin: 0.3rem 0;
+}
+
+.navbar-footer #left{
+   text-align: center;   
+}
+
+.navbar-footer #left #div1 {
+   font-size: 1.6rem;
+   font-weight: bold;
+}
+
+.navbar-footer #center {
+   width: 100%;
+   text-align: justify;
+   opacity: 0.8;
+}
+
+.navbar-footer #right div a {
+   color: var(--font-color);
+   opacity: 0.8;
+}
+
+@media (min-width: 760px) {
+
+   .navbar-footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px;
+   }
+
+   .navbar-footer #left {
+      text-align: unset;
+   }
+
+   .navbar-footer #center {
+      width: 40%;
+      font-size: 15px;
+   }
+
+}

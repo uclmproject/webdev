@@ -1,0 +1,9 @@
+:root { /*Include this in every css files. These are the main colors*/
+   --main_color: #222831;
+   --sub_color: #00ADB5;
+   --accent_color: rgb(62, 93, 196);
+   --button_hover_color: rgba(255, 255, 255, 0.4);
+   --main_font_color: rgb(0, 0, 0);
+   --sub_font_color: rgb(255, 255, 255);
+   --font-color: white;
+}

@@ -1,0 +1,85 @@
+@import "colors.css";
+@import "navbar-header.css";
+@import "navbar-footer.css";
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-family: arial;
+   text-decoration: none;
+   color: var(--font-color);
+}
+
+body {
+   background-color: var(--main_color);
+}
+
+/*content*/
+.content {
+   padding: 5% 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;   
+}
+
+.content-label {
+   font-size: 1.6rem;
+   font-weight: bold;
+   width: 100%;
+   text-align: center;
+   padding-top: 5%;
+}
+
+.fact-card {
+   background-color: var(--sub_color);
+   padding: 2%;
+   margin: 5%;
+   border-radius: 0.5rem;
+   transition: all ease 0.3s;
+}
+
+.c-title {
+   text-align: center;
+   padding: 2%;
+}
+
+.fact-card:hover {
+   transform: scale(1.02);
+}
+
+/*IMAGE SECTION*/
+/* THIS IS THE TEMPLATE
+#factNumber {
+   background: url(../img/imageName.png);
+   background-repeat: no-repeat;
+   background-position: center;
+}
+*/
+/*place the image for the cards in this section*/
+
+
+
+
+
+
+/*IMAGE SECTION END*/
+
+/*desktop media query*/
+@media (min-width: 760px) {
+
+   .content-label {
+      font-size: 2rem;
+   }
+
+   .content {
+      padding: 5% 10%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .fact-card {
+      margin: 5%;
+   }
+}
