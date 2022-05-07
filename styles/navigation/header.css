@@ -66,6 +66,7 @@ input[type=checkbox] {
 
 .navbar ul li {
    margin: 3rem 0;
+   border-radius: 10rem;
 }
 
 .navbar ul li a {

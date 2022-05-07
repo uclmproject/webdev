@@ -2,3 +2,23 @@ input[type=time] {
 	background-color: var(--color-main);
 	border-radius: var(--radius-box)
 }
+
+	input[type=time] {
+		width: 100%;
+		text-align: center;
+	}
+
+	/* CHANGES THE CLOCK ICON COLOR */
+	::-webkit-calendar-picker-indicator {
+		filter: invert(1);
+	}
+
+
+@media (min-width: 760px) {
+
+	input[type=time] {
+		width: unset;
+		margin: 1%;
+	}	
+
+}

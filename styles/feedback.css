@@ -26,9 +26,18 @@ h1 {
 	padding: 5%;
 }
 
+label {
+	text-align: center;
+}
+
 .form {
-	margin: 0 20%;
+	margin: 0 5%;
 	padding-bottom: 10%;
+}
+
+#user-information {
+	margin: 0;
+	padding: 5%;
 }
 
 .user-form {
@@ -62,6 +71,8 @@ h1 {
 
 .row {
 	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
 }
 
 .time {
@@ -117,4 +128,48 @@ input[type=radio] {
 .survey .row {
 	display: flex;
 	justify-content: space-between;
+}
+
+
+@media (min-width: 760px) {
+
+	label {
+		text-align: left;
+	}
+
+	.form {
+		margin: 0 15%;
+		padding-bottom: 10%;
+	}
+
+
+	#user-form-row-3 div {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#radio-selection {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.row {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	#row-1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.time {
+		padding: 1rem 0;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
 }

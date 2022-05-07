@@ -3,6 +3,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="../styles/feedback.css">
+		<meta charset=utf-8>
+      	<meta name=viewport content="width=device-width, initial-scale=1">
 		<title>Feedback</title>
 	</head>
 	<body>
@@ -31,7 +33,7 @@
 			<form>
 				<fieldset id="user-information">
 					<legend>User Information</legend>
-					<div class="user-form">
+					<div class="user-form" id="user-form-1">
 						<div class="row">
 							<label class="label" for="input-name">Name</label>
 							<input class="input-data" type="text" id="input-name" placeholder="Enter your name...">
@@ -45,19 +47,19 @@
 								<option class="selection-option" value="no-specify">Don't specify</option>
 							</select>
 						</div>
-						<div class="row">
+						<!-- <div class="row">
 							<label class="label" for="input-age">Age</label>
 							<input class="input-data" type="number" id="input-age" max="200" min="1" placeholder="1 ~ 200">
-						</div>
-						
+						</div> -->
 					</div>
+
 					<div class="user-form">
 						<div id="row-2">
 							<label class="label" for="input-address">Address</label>
 							<input class="input-data" type="text" id="input-address" placeholder="Doesn't need to be your complete address">
 						</div>
 					</div>
-					<div class="user-form">
+					<div class="user-form" id="user-form-row-3">
 						<div>
 							<label class="label" for="input-email">Email</label>
 							<input class="input-data" type="email" id="input-email">
@@ -83,7 +85,7 @@
 						</div>
 					</div>
 					<div class="divider"></div>
-					<div class="row">
+					<div class="row" id="radio-selection">
 						<label for="input-hear">How did you hear about us?</label>
 						<div class="radio-parent">
 							<div class="section2-div">
@@ -108,7 +110,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row" id="user-feedback-row-4">
 						<label class="label" for="known-froms">If choice not present, please specify.</label>
 						<input class="input-data" type="text" id="known-froms" placeholder="Others...">
 					</div>

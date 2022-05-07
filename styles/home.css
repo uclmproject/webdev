@@ -67,10 +67,11 @@ body {
 }
 
 .content {
-   padding: 5% 0;
+   padding: 0;
    display: flex;
    flex-direction: column;
    align-items: center;
+   min-height: 100vh;
 }
 
 .content-label {
@@ -99,27 +100,25 @@ body {
    transform: scale(1.02);
 }
 
+.navbar-footer {
+   position: relative;
+}
+
 /*DESKTOP SCREEN SIZE*/
 @media (min-width: 760px) {
-
-   body {
-      overflow: hidden;
-   }
 
    .card-parent {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      justify-content: center;
       padding: 0 5%;
-   }
-
-   .navbar-footer {
-      position: absolute;
-      bottom: 0;
+      width: 100%;
    }
 
    .card {
       position: relative;
+      width: 100%;
+      margin: 5%;
    }
 
    .hover-card {
