@@ -1,0 +1,4 @@
+input[type=time] {
+	background-color: var(--color-main);
+	border-radius: var(--radius-box)
+}

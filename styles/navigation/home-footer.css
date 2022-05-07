@@ -7,7 +7,7 @@
    justify-content: space-between;
    bottom: 0;
    position: absolute;
-   background-color: var(--sub_color);
+   background-color: var(--color-sub);
    z-index: -3;
 }
 

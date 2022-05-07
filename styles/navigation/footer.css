@@ -1,4 +1,4 @@
-#import "colors.css";
+@import "colors.css";
 
 * {
    box-sizing: border-box;
@@ -6,8 +6,12 @@
    list-style: none;
 }
 
+#feedback {
+   text-decoration: underline;
+}
+
 .navbar-footer {
-   background-color: var(--sub_color);
+   background-color: var(--color-sub);
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -35,7 +39,7 @@
 }
 
 .navbar-footer #right div a {
-   color: var(--font-color);
+   color: var(--color-font);
    opacity: 0.8;
 }
 

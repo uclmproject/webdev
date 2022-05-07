@@ -1,0 +1,119 @@
+@import "../colors.css";
+
+#label {
+   text-transform: uppercase;
+   font-weight: bold;
+   z-index: -2;
+}
+
+.navbar-margin {
+   width: 100%;
+   /* background-color: red; */
+}
+
+.navbar-header {
+   z-index: 9999;
+   display: flex;
+   justify-content: space-between;
+   background-color: var(--color-sub);
+   padding: 1rem;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   box-shadow: 0 0 10px black;
+   overflow-x: auto;
+   white-space: nowrap;
+}
+
+#navbar-toggler {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 0;
+}
+
+#navbar-toggler div::after {
+   content: '\2630';
+   font-weight: bold;
+   font-size: 1.25rem;
+}
+
+#navbar-checker:checked + .navbar {
+   left: 0;
+}
+
+input[type=checkbox] {
+   display: none;
+}
+
+#navbar-toggler:hover {
+   cursor: pointer;
+}
+
+.navbar {
+   position: fixed;
+   left: -100%;
+   top: 0;
+   padding-top: 20vh;
+   z-index: -1;
+   background-color: var(--color-main);
+   width: 100%;
+   text-align: center;
+   height: 100vh;
+   transition: all ease 0.5s;
+}
+
+.navbar ul li {
+   margin: 3rem 0;
+}
+
+.navbar ul li a {
+   transition: all ease 0.3s;
+   padding: 1rem;
+   border-radius: 10rem;
+}
+
+/* ANIMATION */
+.navbar ul li a:hover {
+   transition: all ease 0.3s;
+   background-color: var(--color-hover);
+}
+
+/*FOR DESKTOP SCREEN SIZE*/
+@media (min-width: 760px) {
+
+   #navbar-toggler {
+      display: none;
+   }
+
+   .navbar-header {
+      padding: 1rem 1rem;
+      margin: 0;
+      display: flex;
+      flex-direction: row-reverse;
+   }
+
+   .navbar {
+      position: relative;
+      height: auto;
+      width: auto;
+      background-color: none;
+      top: 0;
+      left: 0;
+      padding: 0;
+      background: none;
+   }
+
+   .navbar ul li {
+      background-color: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0 1rem;
+   }
+   
+   .navbar ul li a {
+      padding: 0.5rem 0.3rem;
+   }
+
+}

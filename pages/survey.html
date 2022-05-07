@@ -1,0 +1,176 @@
+<!doctype HTML>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles/survey.css">
+	</head>
+	<body>
+		<!-- navbar -->
+		<div class="navbar-margin">
+			<header class="navbar-header">
+			   <label id="navbar-toggler" for="navbar-checker"><div></div></label>
+			   <input type="checkbox" id="navbar-checker">
+			   <nav class="navbar">
+				  <ul>
+					 <li><a href="../index.html">Home</a></li>
+					 <li><a href="fact-edu.html">Educational Facts</a></li>
+					 <li><a href="fact-daily.html">Daily Life Facts</a></li>
+					 <li><a href="fact-useless.html">Useless Facts</a></li>
+					 <li><a href="fact-horror.html">Horrifying Facts</a></li>
+					 <li><a href="videos.html">Videos</a></li>
+				  </ul>
+			   </nav>
+			   <label id="label"><a href="../index.html">Mao Ba?</a></label>
+			</header>
+		 </div>
+
+		 <h1>Feedback</h1>
+
+		 <div class="form">
+			<form>
+				<fieldset id="user-information">
+					<legend>User Information</legend>
+					<div class="user-form">
+						<div class="row">
+							<label class="label" for="input-name">Name</label>
+							<input class="input-data" type="text" id="input-name" placeholder="Enter your name...">
+						</div>
+						<div class="row">
+							<label class="label" for="input-gender">Gender</label>
+							<select name="input-gender" class="selection-parent">
+								<option value="unselected" selected disabled>Specify gender</option>
+								<option class="selection-option" value="male">Male</option>
+								<option class="selection-option" value="female">Female</option>
+								<option class="selection-option" value="no-specify">Don't specify</option>
+							</select>
+						</div>
+						<div class="row">
+							<label class="label" for="input-age">Age</label>
+							<input class="input-data" type="number" id="input-age" max="200" min="1" placeholder="1 ~ 200">
+						</div>
+						
+					</div>
+					<div class="user-form">
+						<div id="row-2">
+							<label class="label" for="input-address">Address</label>
+							<input class="input-data" type="text" id="input-address" placeholder="Doesn't need to be your complete address">
+						</div>
+					</div>
+					<div class="user-form">
+						<div>
+							<label class="label" for="input-email">Email</label>
+							<input class="input-data" type="email" id="input-email">
+						</div>
+						<div>
+							<label class="label" for="input-contact">Contact Number</label>
+							<input class="input-data" type="tel" id="input-contact">
+						</div>
+					</div>
+				</fieldset>
+				<fieldset id="user-feedback">
+					<legend>Feedback</legend>
+					<div class="row" id="row-1">
+						<label for="recieve-email-checkbox" id="checkbox-parent">
+							<input id="recieve-email-checkbox" type="checkbox" class="checkbox-literal">
+							<div class="checkbox"></div>
+							
+							Recieve email for updates?
+						</label>
+					</div>
+					<div class="divider"></div>
+					<div class="row">
+						<label for="input-hear">How did you hear about us?</label>
+						<div class="radio-parent">
+							<div class="section2-div">
+								<label for="hear-1">Google</label>
+								<input type="radio" name="input-hear" id="hear-1">
+								<div class="radio-box"></div>
+							</div>
+							<div class="section2-div">
+								<label for="hear-2">Social Media</label>
+								<input type="radio" name="input-hear" id="hear-2">
+								<div class="radio-box"></div>
+							</div>
+							<div class="section2-div">
+								<label for="hear-3">Friends</label>
+								<input type="radio" name="input-hear" id="hear-3">
+								<div class="radio-box"></div>
+							</div>
+							<div class="section2-div"	>
+								<label for="hear-4">Advertisements</label>
+								<input type="radio" name="input-hear" id="hear-4">
+								<div class="radio-box"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<label class="label" for="known-froms">If choice not present, please specify.</label>
+						<input class="input-data" type="text" id="known-froms" placeholder="Others...">
+					</div>
+				</fieldset>
+				<fieldset class="survey">
+					<legend>Survey</legend>
+					<div class="row">
+						<label class="label">What category you enjoy the most?</label>
+						<select name="survey-1" class="selection-parent">
+							<option value="unspecified" selected disabled>Choose a category...</option>
+							<option value="daily">Daily Life</option>
+							<option value="educational">Educational</option>
+							<option value="useless">Useless</option>
+							<option value="horror">Horrifying</option>
+						</select>
+					</div>
+					<div class="row">
+						<label class="label">What category you enjoy the least?</label>
+						<select name="survey-2" class="selection-parent">
+							<option value="unspecified" selected disabled>Choose a category...</option>
+							<option value="daily">Daily Life</option>
+							<option value="educational">Educational</option>
+							<option value="useless">Useless</option>
+							<option value="horror">Horrifying</option>
+						</select>
+					</div>
+					<div class="row">
+						<label class="label">Is the contents interesting?</label>
+						<select name="survey-3" class="selection-parent">
+							<option value="unspecified" selected disabled>Choose a category...</option>
+							<option value="option-1">Yes</option>
+							<option value="option-2">No</option>
+							<option value="option-3">I'm not sure</option>
+							<option value="option-4">I'd rather not say it</option>
+						</select>
+					</div>
+				</fieldset>
+				<button class="button-1" >Submit</button>
+			</form>
+		 </div>
+
+<!--navbar in the bottom-->
+		<footer class="navbar-footer">
+			<div id="left">
+				<div id="div1">Web Developement 11</div>
+				<div id="div2">Mao Ba?</div>
+				<div id="feedback"><a href="../index.html">Homepage</a></div>
+			</div>
+			<div id="center">
+				<p>
+					About this site:
+					<br>
+					<br>
+					Our website <i>Mao Ba?</i> is all about facts that may or may not help
+					in their lives but ensuring they will get the entertainment they wanted.
+				</p>
+			</div>
+			<div id="right">
+				<div>
+					<b>Anton Jay Cañete</b><br>
+					<a href="#">account@yahoo.com</a>
+				</div>
+				<div>
+					<b>Andre Tagimacruz</b><br>
+					<a href="#">account@yahoo.com</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

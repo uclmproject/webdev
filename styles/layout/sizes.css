@@ -1,0 +1,11 @@
+:root {
+	/* MOBILE */
+	--mcontent-padding: 5% 0;
+	--mcontent-font-size: 0.8rem;
+	--mtitle-font-size: 1.25rem;
+
+	/* DESKTOP */
+	--content-padding: 5% 10%;
+	--content-font-size: 1rem;
+	--title-font-size: 2rem;
+}

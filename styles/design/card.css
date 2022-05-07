@@ -1,0 +1,111 @@
+.fact-card {
+    background-color: var(--color-sub);
+    padding: 2%;
+    margin: 5%;
+    border-radius: 0.5rem;
+    transition: all ease 0.3s;
+    position: relative;
+    width: 80%;
+    box-shadow: 0 3px 5px black;
+ }
+
+ .c-main {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .c-title {
+    text-align: center;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    background: var(--color-main);
+    box-shadow: 0 3px 5px black;
+    border-radius: var(--radius-box);
+    padding: 2%;
+    margin-bottom: 5%;
+ }
+ 
+ .c-title:hover {
+    cursor: pointer;
+    font-size: var(--title-font-size);
+ }
+ 
+p {
+    text-align: center;
+}
+
+.fact-card-layer {
+    transition: all ease 0.3s;
+    position: relative;
+    margin-top: 0.4rem;
+    width: 100%;
+    top: 0;
+    background-color: var(--color-main);
+    box-shadow: 0 3px 5px black;
+    padding: 2%;
+    border-radius: 0.5rem;
+    transition: all ease 0.3s;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    background-position: center center;
+    background-repeat: no-repeat:
+}
+
+@media (min-width: 760px) {
+     
+    .c-title {
+        background: none;
+        box-shadow: none;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+     
+    .c-title:hover {
+        cursor: pointer;
+    }
+
+    .fact-card:hover {
+        transform: scale(1.02);
+    }
+
+    .fact-card:hover div.fact-card-layer {
+        transform: scale(1.05);
+    }
+
+    .fact-card-layer:hover {
+        top: 100%;
+        left: 0;
+        transition: all ease 0.3s;
+        pointer-events: none;
+    }
+
+    .fact-card-layer {
+        height: 0;
+        font-size: 0;
+        visibility: hidden;
+        text-align: justify;
+        display: unset;
+        flex-direction: unset;
+        align-items: unset;
+    }
+
+    .image {
+        margin: 0 0.5rem 0.5rem 0;
+    }
+
+    
+
+}

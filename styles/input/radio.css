@@ -1,0 +1,27 @@
+.radio-box:hover {
+	opacity: 0.8;
+}
+
+.radio-box {
+	background: var(--color-main);
+	width: 1.3rem;
+	height: 1.3rem;
+	border-radius: 100%;
+	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all ease 0.1s;
+}
+
+.radio-box::after {
+	content: '\25CF';
+	font-size: 1.5rem;
+	color: var(--color-main);
+	font-size: 0;
+	transition: all ease 0.1s;
+}
+
+.radio-parent div label:hover {
+	cursor: pointer;
+}

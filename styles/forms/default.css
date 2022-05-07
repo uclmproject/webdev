@@ -1,0 +1,27 @@
+form {
+	padding: 1rem 1rem;
+	background-color: var(--color-sub);
+	border-radius: 0.5rem;
+	box-shadow: 0 3px 5px black;
+	z-index: 5;
+	transition: all ease 0.1s;
+}
+
+fieldset {
+	width: 100%;
+    padding: 1rem;
+	border-radius: 0.5rem;
+	border-color: var(--color-font);
+}
+
+legend {
+	padding: 1rem;
+}
+
+.label {
+	margin-left: 1rem;
+}
+
+input:focus {
+	outline: none;
+}

@@ -1,9 +1,20 @@
 <!DOCTYPE html>
+<!-- 
+
+Notice before editing
+
+When creating an id for a content block, ensure that you do not use space, 
+insted use - dash. (Ex: content-block-1)
+
+Ensure that the content block is placed inside the content section.
+Content section is labeled below.
+
+ -->
 <html>
    <head>
       <link rel="icon" href="../img/icon.png">
       <link rel="stylesheet" href="../styles/fact-horror.css">
-      <title>Daily Facts</title>
+      <title>Horrifying Facts</title>
    </head>
 
    <body>
@@ -12,15 +23,18 @@
       <!--navbar in the top-->
       <div class="navbar-margin">
          <header class="navbar-header">
-            <label><a href="../index.html">Mao Ba?</a></label>
+            <label id="navbar-toggler" for="navbar-checker"><div></div></label>
+            <input type="checkbox" id="navbar-checker">
             <nav class="navbar">
                <ul>
-                  <li><a href="../index.html">Homepage</a></li>
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="fact-edu.html">Educational Facts</a></li>
                   <li><a href="fact-daily.html">Daily Life Facts</a></li>
                   <li><a href="fact-useless.html">Useless Facts</a></li>
-                  <li><a href="fact-edu.html">Educational Facts</a></li>
+                  <li><a href="videos.html">Videos</a></li>
                </ul>
             </nav>
+            <label id="label"><a href="../index.html">Mao Ba?</a></label>
          </header>
       </div>
 
@@ -31,44 +45,102 @@
       <div class="content">
  <!--Place your made content here-->
 
-
-
+ 
          <!-- Fact 1 Card -->
          <div class="fact-card" id="fact1"> 
-            <div class="c-main" id="featured">   <!--the id will be the title of the fact-->
+            <div class="c-main" id="fact1-fir-tree">   <!--the id will be the title of the fact-->
             <!--Title of the Fact -->           <!--change it to something later-->
-            <h2 class="c-title">Fact Title</h2>
+            <label for="fact1-checkbox-label" class="c-title">Fir Tree</label>
+            <input id="fact1-checkbox-label" type="checkbox">
             <!--Content of the Fact-->
-            <p>Full explanation here. Change the background into an image that summarizes the fact
-               <br><br>
-               This example illustrates how to write plain text in an HTML file. Blank lines (as next line) are ignored. Similarly, if you press the Enter key, you will not get a new paragraph. To illustrate this I am pressing Enter right here ... and as you can see, the line continue. If you want to break the line you need to enter the "P" tag, like right here ...
-               The P tag will give you a blank line and start the paragraph in the next line. As it happened in the prior paragraph. If all you want is a line break without a blank line, then use the BR tag, like right here...
-               See what happened?
-               <br><br>
-               If you want to include text "as is" like the one you are just reading
-               all you need to is use the PRE tag. This will allow you to display
-               text exactly as you type it.  It will give you a line break wherever
-               you press Enter, like here....</p>
+            <p>
+                Fir trees can grow in human lungs.
+            </p>
+            <div class="fact-card-layer">
+               <img class="image" src="../assets/img/fir-tree.webp" alt="Fir Tree">
+               <div class="text">
+                  A 28-year-old patient named Artyom Sidorkin reportedly inhaled the seed of a fir tree, which had sprouted and grown in his lung. Doctors thought they were dealing with a tumor and were stunned when they made the discovery.
+               </div>
+            </div>
             </div>
          </div>
 
 
-         <!-- Fact 2 Card -->
-         <div class="fact-card" id="fact2"> 
-            <div class="c-main" id="featured">   <!--the id will be the title of the fact-->
+         <div class="fact-card" id="fact1"> 
+            <div class="c-main" id="fact1-fir-tree">   <!--the id will be the title of the fact-->
             <!--Title of the Fact -->           <!--change it to something later-->
-            <h2 class="c-title">Fact Title</h2>
+            <label for="fact1-checkbox-label" class="c-title">Fir Tree</label>
+            <input id="fact1-checkbox-label" type="checkbox">
             <!--Content of the Fact-->
-            <p>Full explanation here. Change the background into an image that summarizes the fact
-               <br><br>
-               This example illustrates how to write plain text in an HTML file. Blank lines (as next line) are ignored. Similarly, if you press the Enter key, you will not get a new paragraph. To illustrate this I am pressing Enter right here ... and as you can see, the line continue. If you want to break the line you need to enter the "P" tag, like right here ...
-               The P tag will give you a blank line and start the paragraph in the next line. As it happened in the prior paragraph. If all you want is a line break without a blank line, then use the BR tag, like right here...
-               See what happened?
-               <br><br>
-               If you want to include text "as is" like the one you are just reading
-               all you need to is use the PRE tag. This will allow you to display
-               text exactly as you type it.  It will give you a line break wherever
-               you press Enter, like here....</p>
+            <p>
+                Fir trees can grow in human lungs.
+            </p>
+            <div class="fact-card-layer">
+               <img class="image" src="../assets/img/fir-tree.webp" alt="Fir Tree">
+               <div class="text">
+                  A 28-year-old patient named Artyom Sidorkin reportedly inhaled the seed of a fir tree, which had sprouted and grown in his lung. Doctors thought they were dealing with a tumor and were stunned when they made the discovery.
+               </div>
+            </div>
+            </div>
+         </div>
+
+
+
+         <div class="fact-card" id="fact1"> 
+            <div class="c-main" id="fact1-fir-tree">   <!--the id will be the title of the fact-->
+            <!--Title of the Fact -->           <!--change it to something later-->
+            <label for="fact1-checkbox-label" class="c-title">Fir Tree</label>
+            <input id="fact1-checkbox-label" type="checkbox">
+            <!--Content of the Fact-->
+            <p>
+                Fir trees can grow in human lungs.
+            </p>
+            <div class="fact-card-layer">
+               <img class="image" src="../assets/img/fir-tree.webp" alt="Fir Tree">
+               <div class="text">
+                  A 28-year-old patient named Artyom Sidorkin reportedly inhaled the seed of a fir tree, which had sprouted and grown in his lung. Doctors thought they were dealing with a tumor and were stunned when they made the discovery.
+               </div>
+            </div>
+            </div>
+         </div>
+
+
+
+         <div class="fact-card" id="fact1"> 
+            <div class="c-main" id="fact1-fir-tree">   <!--the id will be the title of the fact-->
+            <!--Title of the Fact -->           <!--change it to something later-->
+            <label for="fact1-checkbox-label" class="c-title">Fir Tree</label>
+            <input id="fact1-checkbox-label" type="checkbox">
+            <!--Content of the Fact-->
+            <p>
+                Fir trees can grow in human lungs.
+            </p>
+            <div class="fact-card-layer">
+               <img class="image" src="../assets/img/fir-tree.webp" alt="Fir Tree">
+               <div class="text">
+                  A 28-year-old patient named Artyom Sidorkin reportedly inhaled the seed of a fir tree, which had sprouted and grown in his lung. Doctors thought they were dealing with a tumor and were stunned when they made the discovery.
+               </div>
+            </div>
+            </div>
+         </div>
+
+
+
+         <div class="fact-card" id="fact1"> 
+            <div class="c-main" id="fact1-fir-tree">   <!--the id will be the title of the fact-->
+            <!--Title of the Fact -->           <!--change it to something later-->
+            <label for="fact1-checkbox-label" class="c-title">Fir Tree</label>
+            <input id="fact1-checkbox-label" type="checkbox">
+            <!--Content of the Fact-->
+            <p>
+                Fir trees can grow in human lungs.
+            </p>
+            <div class="fact-card-layer">
+               <img class="image" src="../assets/img/fir-tree.webp" alt="Fir Tree">
+               <div class="text">
+                  A 28-year-old patient named Artyom Sidorkin reportedly inhaled the seed of a fir tree, which had sprouted and grown in his lung. Doctors thought they were dealing with a tumor and were stunned when they made the discovery.
+               </div>
+            </div>
             </div>
          </div>
 
@@ -77,13 +149,14 @@
          
 
 
-
+<!-- Content ends here -->
       </div>
 <!--navbar in the bottom-->
    <footer class="navbar-footer">
             <div id="left">
                <div id="div1">Web Developement 11</div>
                <div id="div2">Mao Ba?</div>
+               <div id="feedback"><a href="feedback.html">Feedback</a></div>
             </div>
             <div id="center">
                <p>

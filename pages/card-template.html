@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- 
+
+Notice before editing
+
+When creating an id for a content block, ensure that you do not use space, 
+insted use - dash. (Ex: content-block-1)
+
+Ensure that the content block is placed inside the content section.
+Content section is labeled below.
+
+INPUT ID INFO
+For creating input id on contents, use this format
+factID-checkbox-label where factID is the ID you defined at T1
+Example: fact50-checkbox-label
+
+ONLY ID ARE CHANGEABLE, DO NOT CHANGE THE CLASS NAMES
+
+ -->
+<html>
+   <head>
+      <link rel="icon" href="../img/icon.png">
+      <link rel="stylesheet" href="../styles/fact-edu.css">
+      <title>Daily Facts</title>
+   </head>
+
+   <body>
+      <div class="content">
+
+         <!-- Fact Card -->
+         <div class="fact-card" id="fact1"> <-(T1) ID WILL BE THE FACT ID
+            <div class="c-main" id="featured"> <-(T2) ID WILL BE THE FACT TITLE
+            <!--Title of the Fact -->           <!--change it to something later-->
+            <label for="fact1-checkbox-label" class="c-title">(T3) FACT TITLE HERE</label>
+            <input id="fact1-checkbox-label" type="checkbox"> <-(T4) FOR INPUT ID INFO, SEE ABOVE.
+            <div class="fact-card-layer">
+               <img class="image" src="IMAGE FILE HERE">
+               <div class="text">
+                  
+                  FULL EXPLANATION HERE
+
+               </div>
+            </div>
+            <p>
+                SHORT EXPLANATION HERE
+            </p>
+            </div>
+         </div>
+
+
+
+   </body>
+</html>

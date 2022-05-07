@@ -1,0 +1,23 @@
+:root { /*Include this in every css files. These are the main colors*/
+
+   /* THEME COLOR */
+   --color-main: #222831;                             /* dark gray */
+   --color-sub: #00ADB5;                              /* blue-green */
+   --color-accent: rgb(62, 93, 196);                  /* sharp-blue */
+   --color-hover: rgba(255, 255, 255, 0.4);    /* use this for button hover color */
+
+   /* FONT COLORS */
+   --fcolor-main: rgb(0, 0, 0);
+   --fcolor-sub: rgb(255, 255, 255);
+   --color-font: white;
+
+   /* RADIUS */
+   --radius-box: 0.5rem;
+   --radius-textbox: var(--radius-box);                              
+   --radius-scrollbar: var(--radius-box);
+
+   /* SCROLLBAR */
+   --scrollbar-track: rgba(0, 0, 0, 0.25);
+   --scrollbar-thumb: rgba(255, 255, 255, 0.15);
+   --scrollbar-width: 10px;
+}

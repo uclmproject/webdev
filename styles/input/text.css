@@ -1,0 +1,13 @@
+input::placeholder {
+    color: var(--color-font);
+}
+
+.input-data {
+	color: var(--color-font);
+	padding: 0.3rem;
+	border: none;
+	border-radius: 0.5rem;
+	margin-left: 0.3rem;
+	background: var(--color-main);
+	/* box-shadow: 0 3px 5px rgb(41, 41, 41); */
+}

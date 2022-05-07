@@ -1,0 +1,41 @@
+@keyframes open {
+    0% {height: 0;}
+    100% {height: unset; font-size: unset;}
+}
+
+@media (min-width: 760px) {
+
+    #fact1-checkbox-label:checked ~ div.fact-card-layer {
+        visibility: unset;
+        opacity: 1;
+        padding: 5%;
+        animation: open 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #fact2-checkbox-label:checked ~ div.fact-card-layer {
+        visibility: visible;
+        opacity: 1;
+        transition: all ease 0.3s;
+    }
+
+    #fact3-checkbox-label:checked ~ div.fact-card-layer {
+        visibility: visible;
+        opacity: 1;
+        transition: all ease 0.3s;
+    }
+
+    #fact4-checkbox-label:checked ~ div.fact-card-layer {
+        visibility: visible;
+        opacity: 1;
+        transition: all ease 0.3s;
+    }
+
+    #fact5-checkbox-label:checked ~ div.fact-card-layer {
+        visibility: visible;
+        opacity: 1;
+        transition: all ease 0.3s;
+    }
+
+}
+

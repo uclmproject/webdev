@@ -1,6 +1,7 @@
-@import "colors.css";
-@import "navbar-header.css";
-@import "navbar-footer.css";
+@import "variables.css";
+@import "navigation/header.css";
+@import "navigation/footer.css";
+@import "design/scrollbar.css";
 
 
 /*@keyframes fade {
@@ -54,14 +55,15 @@
    padding: 0;
    margin: 0;
    font-family: Arial, Helvetica, sans-serif;
-   color: var(--font-color);
+   color: var(--color-font);
 }
 
 body {
-   background-color: var(--main_color);
+   background-color: var(--color-main);
    height: 100vh;
    margin: 0;
    padding: 0;
+   margin-top: 5rem;
 }
 
 .content {
@@ -80,7 +82,7 @@ body {
 }
 
 .card {
-   background-color: var(--sub_color);
+   background-color: var(--color-sub);
    padding: 2%;
    margin: 5%;
    border-radius: 0.5rem;
@@ -125,7 +127,7 @@ body {
       top: 0;
       left: 0;
       opacity: 0;
-      background-color: var(--sub_color);
+      background-color: var(--color-sub);
       border-radius: 0.5rem;
       padding: 5%;
       transition: all ease 0.2s;

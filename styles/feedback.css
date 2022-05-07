@@ -1,0 +1,120 @@
+@import "variables.css";
+@import "input/all.css";
+@import "forms/default.css";
+@import "navigation/header.css";
+@import "navigation/footer.css";
+@import "design/scrollbar.css";
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   font-family: arial;
+   text-decoration: none;
+   color: var(--color-font);
+}
+
+body {
+	background-color: var(--color-main);
+	margin-top: 5rem;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+	padding: 5%;
+}
+
+.form {
+	margin: 0 20%;
+	padding-bottom: 10%;
+}
+
+.user-form {
+	margin: 1rem 0;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#input-address {
+	margin-top: 0.3rem;
+	width: 100%;
+}
+
+#row-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+#user-feedback #row-1 {
+	margin: 1rem;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: white;
+}
+
+.row {
+	margin: 1rem 0;
+}
+
+.time {
+	padding: 1rem 0;
+}
+
+.radio-parent {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.section2-div {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 3.5rem;
+}
+
+input[type=radio] {
+	display: none;
+}
+
+#hear-1:checked + .radio-box, #hear-1:checked + .radio-box::after{
+	opacity: 1;
+	transition: all ease 0.1s;
+	color: var(--color-font);
+	font-size: 1.5rem;
+}
+
+#hear-2:checked + .radio-box, #hear-2:checked + .radio-box::after{
+	opacity: 1;
+	transition: all ease 0.1s;
+	color: var(--color-font);
+	font-size: 1.5rem;
+}
+
+#hear-3:checked + .radio-box, #hear-3:checked + .radio-box::after{
+	opacity: 1;
+	transition: all ease 0.1s;
+	color: var(--color-font);
+	font-size: 1.5rem;
+}
+
+#hear-4:checked + .radio-box, #hear-4:checked + .radio-box::after{
+	opacity: 1;
+	transition: all ease 0.1s;
+	color: var(--color-font);
+	font-size: 1.5rem;
+}
+
+.survey .row {
+	display: flex;
+	justify-content: space-between;
+}
