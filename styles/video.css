@@ -39,11 +39,25 @@ body {
    padding-top: 5%;
 }
 
-h2 {
+.title-bar {
    padding: 0;
    margin-top: 2rem;
    text-align: left;
    width: 80%;
+   justify-content: space-between;
+   flex-direction: row;
+   display: flex;
+}
+
+.button-browse {
+   background: var(--color-sub);
+   padding: 1rem;
+   border-radius: var(--radius-box);
+   transition: all ease 0.3s;
+}
+
+.button-browse:hover {
+   transform: scale(1.1);
 }
 
 .video-pane {
@@ -76,5 +90,13 @@ h2 {
 
    .fact-card {
       margin: 5%;
+   }
+
+   .video {
+      height: 50%;
+      width: 50%;
+      padding: 0;
+      margin: 0 20px;
+      border-radius: 0.5rem;
    }
 }

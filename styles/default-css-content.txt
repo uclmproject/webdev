@@ -1,11 +1,15 @@
-@import "variables.css";
-@import "navigation/header.css";
-@import "navigation/footer.css";
-@import "design/card.css";
-@import "animation/card-hover.css";
-@import "layout/sizes.css";
-@import "design/scrollbar.css";
+@import "../variables.css";
+@import "../navigation/header.css";
+@import "../navigation/footer.css";
+@import "../design/card.css";
+@import "../animation/card-hover.css";
+@import "../layout/sizes.css";
+@import "../design/scrollbar.css";
 
+/* 
+THE DEFAULT CSS FOR SOME CSS FILES!!
+ */
+ 
 * {
    box-sizing: border-box;
    margin: 0;

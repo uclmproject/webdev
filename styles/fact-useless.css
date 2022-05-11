@@ -39,22 +39,6 @@ body {
    padding-top: 5%;
 }
 
-/*IMAGE SECTION*/
-/* THIS IS THE TEMPLATE
-#factID {
-   background: url(../img/imageName.png);
-   background-repeat: no-repeat;
-   background-position: center;
-}
-*/
-/*place the image for the cards in this section*/
-
-
-
-
-
-
-/*IMAGE SECTION END*/
 
 /*desktop media query*/
 @media (min-width: 760px) {
